@@ -1,0 +1,344 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+html{
+	max-height:100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	scroll-behavior: hidden;
+	position: auto;
+}
+
+body {
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+	background-image: url('switart.jpeg'); */
+	height:100%
+	width:100%;
+	background-size:cover;
+	background-position: center;
+  	background-repeat: no-repeat;
+	background-attachment: fixed;
+	position: relative;
+	margin:auto;
+	scroll-behavior: auto;
+	scroll-behavior: hidden;
+	overflow-x: hidden;
+	display: block;
+
+	top: 0;
+    bottom:0;
+    position:relative;
+    overflow-y:scroll;
+    overflow-x:hidden;
+}
+
+/*
+.watercolorleaf5.png img{
+	position: absolute;
+}
+
+.aboutme{
+	position: relative;
+}
+*/
+
+  
+/* Global*/
+/*.container{
+	width: 80%;
+	margin:auto;
+	overflow: hidden;
+}*/
+
+/* Header */
+/*
+header{
+	
+	min-height: 70px
+	border-bottom:grey;
+	
+
+	display:flex;
+	align-items:center;
+	text-align:center;
+	justify-content: center;
+	background-attachment: fixed;
+
+}*/
+/*Header image - leaves*/
+.Title img{
+  right:2px;
+  position:  absolute;
+  float: right;
+  display: block;
+  max-width:250px;
+  max-height:250px;
+  width: auto;
+  height: auto;
+}
+/*Header title - PORTFOLIO*/
+.Title h1 {
+ 
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  top: 18px;
+  left: 10px;
+}
+
+/* Wrapper */
+#wrapper {
+	height: 100%
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	/*width: 20%;
+	height: 20%*/
+	/*margin: 20 auto;*/
+	/*align-items:center;
+	text-align: center;*/
+}
+#wrapper .container{
+	height: 100%
+	width: 100%;
+    margin: 0;
+	margin-left: 0px;
+	margin-right: 0px;
+	display:grid;
+	grid-template-columns: 13% 87%;
+	overflow: hidden;
+
+
+}
+
+/* Aside */
+aside{
+	padding-bottom: 200px;
+	padding-top: 30px;
+
+}
+
+nav{
+   	align-items: center;
+   	justify-content: center;
+	position: relative;
+	/*background-image: url('structure.jpeg');*/
+	/*background-attachment: fixed;*/
+	padding-left: 10px;
+	padding-bottom: 200px;
+	height:100%;
+	width:150px;
+}
+
+/*ul{
+	display:inline:block;
+}*/
+
+nav a.button { /* ul li*/
+  display: inline-block;
+  border-radius: 10px;
+  background-color: white;
+  /*changed color from coral */
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  height: 50px;
+  width: 170px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+
+	/*width: 100%;
+	height: 100%;
+
+	text-align: center;
+	padding:10px 3px 10px 3px;
+	background-color:coral;*/
+	/*display:inline:block;*/
+	/*border-radius:10px;
+    margin-bottom: 50px;*/	
+}
+
+button + button { margin-top: 20px; }
+
+
+
+aside ul :hover {
+ 	opacity: 0.7;
+ 
+}
+/*aside ul{
+	text-align: center;
+	margin:0;
+	padding:0;
+	letter-spacing: 2px;
+}*/
+
+
+/*aside li{
+	text-align: center;
+	display: flex;
+	padding; 10px 20px 0 20px;
+	margin-top: 50px;
+	margin-bottom: 90px; 
+
+}
+aside a{
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 800;
+	color:white;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 2px;
+}*/
+
+section{
+	border-radius:10px;
+
+	/*background-attachment: fixed;*/
+	height: 100%;
+	width: 90%;
+	/*padding-top:30px
+	min-height: 400px;*/
+	/*background-color: grey;*/
+	/*#368CB1;*/
+	/*background-color: white;*/
+	/*background: rgb(54, 140, 176, .95);*/
+	background: rgb(255, 255, 255, .90);
+	margin-right: 50px;
+	margin-left: 10px;
+	margin-top: 20px;
+	margin-bottom: 100px;
+	position: relative;
+	overflow:visible;
+   
+	
+
+/*	background-size:contain;*/
+	/*display:flex;*/
+	justify-content: center;
+	align-items:center;
+	text-align: center;
+	color:black;
+
+
+	/*background-attachment: fixed;
+	position: relative;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    align-content: center;*/
+}
+
+#aboutme .container{
+	height: 100%
+	width: 100%;
+    margin: 0;
+    overflow: hidden;
+    content: fixed;
+
+
+}
+
+#aboutme .profile{
+padding-left: 400px;
+padding-top: 30px;
+	position: center;
+    display: flex;
+    display: block;
+  
+
+	/*padding-right:30px
+	right:150px;
+  	position: absolute;
+  
+
+	align-items:center;
+	justify-content: center;
+	text-align: center;*/
+	color:black;
+
+}
+
+#aboutme img {
+	height:250px;
+	border-radius: 70%;
+}
+
+.profile{
+	width:400px;
+	/*justify-content: center;*/
+
+	/*background-color: rgba(0,0,0,0.1);
+	padding: 30px 0;*/
+}
+
+
+.profileText h2{font-family: 'Arimo', sans-serif;
+				font-size: 33px;
+				/*margin-bottom: 10px*/}
+.profileText h3{font-family: 'Arimo', sans-serif;}
+.profileText p{font-family: 'Arimo', sans-serif;}
+
+.secondImg h1{font-family: 'Arimo', sans-serif;
+				font-size: 100px;
+				font-weight: 100px;
+			align-items:center;
+			justify-content: center;
+			color: white;
+			/*changed color from coral to gray*/
+
+		}
+
+/*footer*/
+footer{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	margin: 0;
+	margin-left: 80px;
+	justify-content: center;
+	text-align: center;
+	align-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+i{
+	color:black;
+	/*width: 24px !important;
+    height: 24px !important;*/
+}
+
+
+
+
+/*.decoration{
+	/*border: 10px dotted black;*/
+  	/*padding: 15px;
+  	background: lightblue;
+  	position: relative;
+   top: -225px;
+   left: -750px;*/
+/**/
